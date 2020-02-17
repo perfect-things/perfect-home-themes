@@ -1,16 +1,16 @@
 # Pure white
 White icons without the background. Ideal for a dark site.
 
-![Screenshot](README.png)
+![Screenshot](_pure-white.png)
 
 
-## Custom CSS
+# Custom CSS
 ```css
 header { height: 0; }
 header .title {display: none; }
 .bookmarks .item-bookmark .item-title { display: none; }
 .bookmarks .item-folder .item-thumb {
-  background: center url(http://localhost/folder-outline.svg) no-repeat;
+  background: center url("https://raw.githubusercontent.com/perfect-things/perfect-home-themes/master/pure-white/folder-outline.svg") no-repeat;
   background-size: auto;
   background-size: 110px;
 }
@@ -33,3 +33,6 @@ header .title {display: none; }
   transform: scale(1.05);
 }
 ```
+
+# Template
+[sketch file](_pure-white.sketch)
