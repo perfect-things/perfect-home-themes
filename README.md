@@ -3,7 +3,7 @@
 This is the place where you can find (and contribute your own) themes for the [Perfect Home](https://addons.mozilla.org/en-US/firefox/addon/perfect-home) firefox addon.
 
 ## What is a Theme?
-It's basically a folder in this repo, containing one or more of these:
+It's basically a folder in this repo, containing one of these (or both):
 - Thumbnails for websites - any number and any website.
 - Custom CSS - that one can just copy & paste in settings and it will change the look & feel of the Perfect Home page.
 
