@@ -1,7 +1,7 @@
 # Pure white
 White icons without the background. Ideal for a dark site.
 
-![Screenshot](_pure-white.png)
+![Screenshot](_screenshot.png)
 
 
 # Custom CSS
@@ -35,4 +35,4 @@ header .title {display: none; }
 ```
 
 # Template
-[sketch file](_pure-white.sketch)
+[sketch file](_template.sketch)
