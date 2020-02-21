@@ -8,30 +8,18 @@ White icons without the background. Ideal for a dark site.
 ```css
 header { height: 0; }
 header .title {display: none; }
-.bookmarks .item-bookmark .item-title { display: none; }
-.bookmarks .item-folder .item-thumb {
-  background: center url(assets/folder-outline.svg) no-repeat;
-  background-size: auto;
-  background-size: 110px;
-}
-.bookmarks .item-folder .item-title {
-  margin-top: -56px;
+.bookmarks.no-labels .item-folder .item-thumb { mask-size: 110px; }
+.bookmarks.no-labels .item-folder .item-title {
   font-size: 18px;
-  color: #fff;
-  z-index: 9;
-  position: relative;
-  font-weight: 200;
-  letter-spacing: 1.5px;
+  max-width: 94px;
+  margin-bottom: 6px;
 }
 .bookmarks .item {
   filter: none;
-  opacity: 0.6;
+  opacity: 0.8;
   transition: opacity .3s ease-out, transform .2s;
 }
-.bookmarks .item:hover {
-  opacity: 1;
-  transform: scale(1.05);
-}
+.bookmarks .item:hover { opacity: 1; transform: scale(1.05); }
 ```
 
 # Template
