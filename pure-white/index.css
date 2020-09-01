@@ -1,0 +1,23 @@
+header { height: 30px; }
+header .title { display: none; }
+
+.bookmarks.no-labels .item-folder .item-thumb { 
+	mask-size: 110px; 
+}
+
+.bookmarks.no-labels .item-folder .item-title { 
+	font-size: 18px; 
+	max-width: 94px;
+	margin-bottom: 6px;
+}
+
+.bookmarks .item { 
+	filter: none;
+	opacity: 0.8; 
+	transition: all .3s ease-out; 
+}
+
+.bookmarks .item:hover { 
+	opacity: 1; 
+	transform: scale(1.05);
+}
