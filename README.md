@@ -40,3 +40,15 @@ There are a couple of restrictions to the theme and file names:
 
 You can have a look at the sample themes that are already in the repo.
 Once we have a decent number of themes, there's a plan to create some sort of a gallery website :smile:.
+
+
+# Themes - FAQ
+
+### Changing a theme doesn't do anything
+It doesn't have to do anything.<br>
+Theme does not have to contain an `index.css` file, and if it doesn't - nothing will change.
+
+### When I change a theme my icons/thumbnails don't change
+This is by design!<br>
+When you select an icon - it is converted to a DataURI format and stored in your browser's cache (for speed and stability). So when you change a theme - nothing happens.
+If you want to change a bookmark icon/thumbnail, you can do so by editing a bookmark and selecting a new icon from the new theme.
