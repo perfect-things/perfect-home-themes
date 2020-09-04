@@ -50,9 +50,9 @@ Once we have a decent number of themes, there's a plan to create some sort of a 
 ### Changing a theme doesn't do anything
 It doesn't have to do anything.<br>
 Theme does not have to contain an `index.css` file, and if it doesn't - nothing will change.
-
+However, changing a theme will allow you to pick thumbnails for your bookmarks (see "[How to use a theme?](#how-to-use-a-theme)" section above).
 
 ### When I change a theme my icons/thumbnails don't change
 This is by design!<br>
-When you select an icon - it is converted to a DataURI format and stored in your browser's cache (for speed and stability). So when you change a theme - nothing happens.
-If you want to change a bookmark icon/thumbnail, you can do so by editing a bookmark and selecting a new icon from the new theme.
+When you select an icon - it is converted to a DataURI format and stored in your browser's cache (for speed, stability and so that it shows up when you're offline). So when you change a theme - nothing happens.
+If you want to change a bookmark icon/thumbnail, you can do so by editing a bookmark and selecting a new icon from the new theme (see "[How to use a theme?](#how-to-use-a-theme)" section above).
