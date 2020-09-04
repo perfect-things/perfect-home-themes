@@ -11,10 +11,12 @@ It's basically a folder in this repo, containing one of these (or both):
 ## How to use a Theme?
 
 ### Directly from the extension settings
-- Just open the extension settings (clicking the cog icon in the top-right corner)
-- Make sure to enable "Themes from github" in the "Privacy" section
-- In "Customize" section - select a theme you want.
-- ... more details to follow...
+- Open the extension settings (clicking the cog icon in the top-right corner)
+- Make sure to enable "**Allow Github**" in the **Privacy** section
+- In "Customize" section - select a theme.
+- If the selected theme had a CSS - it should be applied now
+- To use any of the theme thumbnails - you need to edit any bookmark and in the edit window click "Pick from theme" button (this button will only show up if Themes are enabled and a Theme is selected):
+![Icon Picker](icon-picker.png)
 
 
 ### Manually
@@ -47,6 +49,7 @@ Once we have a decent number of themes, there's a plan to create some sort of a 
 ### Changing a theme doesn't do anything
 It doesn't have to do anything.<br>
 Theme does not have to contain an `index.css` file, and if it doesn't - nothing will change.
+
 
 ### When I change a theme my icons/thumbnails don't change
 This is by design!<br>
