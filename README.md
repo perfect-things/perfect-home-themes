@@ -31,7 +31,8 @@ It's basically a folder in this repo, containing one of these (or both):
 
 ### Naming conventions
 There are a couple of restrictions to the theme and file names:
-- Folder name (obviously, as it's a folder) must be unique. If you wish, you can add namespace like so: `tom123-mytheme`.
+- Folder name (obviously, as it's a folder) must be unique and must start with `theme-`.
+- If you wish, you can add namespace like so: `theme-tom123-mydarktheme`.
 - A nice screenshot of either the *Perfect Home* page or just the thumbnails (e.g. from a graphical app) with a name: `_screenshot.png`. This will be used as a preview on the future themes site.
 - `README.md` file inside the theme folder should contain:
   - A good description in markdown format.
