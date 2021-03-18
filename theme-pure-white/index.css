@@ -2,6 +2,7 @@ header { height: 30px; }
 header .title { display: none; }
 
 .bookmarks.no-labels .item-folder .item-thumb { 
+	-webkit-mask-size: 110px; 
 	mask-size: 110px; 
 }
 
